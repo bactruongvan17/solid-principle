@@ -1,0 +1,26 @@
+{
+    "name": "example/solid-principle",
+    "description": "Example about SOLID prinicple using PHP 8.2",
+    "version": "1.0.0",
+    "type": "project",
+    "keywords": ["solid", "php", "principle"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bac Truong Van",
+            "email": "bactruongvan17@gmail.com",
+            "role": "Software Engineer"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Example\\SolidPrinciple\\SRP": "src/1. SRP",
+            "Example\\SolidPrinciple\\OCP": "src/2. OCP",
+            "Example\\SolidPrinciple\\LSP": "src/3. LSP",
+            "Example\\SolidPrinciple\\ISP": "src/4. ISP",
+            "Example\\SolidPrinciple\\DIP": "src/5. DIP"
+        }
+    }
+}
